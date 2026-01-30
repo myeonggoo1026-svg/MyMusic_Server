@@ -1,4 +1,4 @@
-package com.example.mymusic_server; // 본인의 실제 패키지명과 다르면 이 줄만 유지하세요.
+package com.example.mymusic_server;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -43,4 +43,5 @@ public class Song {
 
     private String composer;
     private String lyricist;
+
 }
